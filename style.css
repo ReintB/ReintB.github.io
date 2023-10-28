@@ -1,0 +1,269 @@
+*{
+    background-color: #05101A;
+    color: #ffffff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#081B2B;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #081B2B;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header img, h1, nav, ul, li, a{
+    background-color: #081B2B;
+}
+
+.header .logo{
+    background-color: #081B2B;
+}
+
+.logo{
+    background-color: #081B2B;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #081B2B;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo {
+    display: flex; 
+    align-items: center; 
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+h1 {
+    margin: 0; 
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+}
+
+main h2 {
+    margin: 10px 0;
+}
+
+main h1, main h2, main h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+header h2{
+    font-family: 'Poppins', sans-serif;
+    background-color: #081B2B;
+}
+
+nav ul li{
+    font-family: 'Poppins', sans-serif;
+}
+
+footer{
+    background-color: #081B2B;
+}
+
+footer ul, footer li, footer a, footer p{
+    font-family: 'Poppins', sans-serif;
+    background-color: #081B2B;
+}
+
+footer img{
+    width: 35px;
+    height: 35px;
+    background-color: #081B2B;
+}
+
+main h1{
+    background-color: #05101A;
+}
+
+main h1 {
+    position: relative;
+    z-index: 2;
+}
+
+main img {
+    position: relative;
+    z-index: 1;
+}
+
+main h1:hover, main img:hover, main h2:hover, main h3:hover, main p:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s; 
+    text-shadow: 4px 4px 4px grey;
+}
+
+main h1, main img, main h2, main h3, main p {
+    transform: scale(1); 
+    transition: transform 0.2s;
+}
+
+header h2:hover, header img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+    text-shadow: 4px 4px 4px grey;
+}
+
+header h2, header img {
+    transform: scale(1);
+    transition: transform 0.2s;
+}
+
+footer img{
+    height: 40px;
+    width: auto;
+}
+
+footer img{
+    transform: scale(1);
+    transition: transform 0.4s;
+}
+
+footer img:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    flex: 1;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    text-align: center;
+}
+
+main button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: #081b2b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 0;
+    display: inline;
+}
+
+main button{
+    transform: scale(1);
+    transition: transform 0.4s;
+}
+
+main button:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s;
+    text-shadow: 4px 4px 4px #081b2b;
+    box-shadow: 4px 4px 4px grey;
+}
+
+.digital-clock {
+    background: none;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.digital-clock:hover{
+    text-shadow: 4px 4px 4px grey;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.digital-clock{
+    transform: scale(1);
+    transition: transform 0.4s;
+}
+
+.digital-clock:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s;
+}
+
